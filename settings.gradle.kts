@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "PureCommon"
+rootProject.name = "PureTemplate"
