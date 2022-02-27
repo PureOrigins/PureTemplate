@@ -40,6 +40,10 @@ afterEvaluate {
         build {
             dependsOn(reobfJar)
         }
+        
+        compileKotlin {
+            kotlinOptions.jvmTarget = "17"
+        }
     }
 }
 
